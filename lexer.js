@@ -1,10 +1,10 @@
 "use strict";
 /**
  * lexer.js — Analizador léxico de CurrencyScript
- *
- * Convierte el código fuente en una lista de tokens {tipo, valor, linea, columna}.
- * Reconoce palabras reservadas, monedas predefinidas, identificadores, números,
- * cadenas, operadores, delimitadores y comentarios (que se descartan).
+ * 
+ * Implementación inicial: 2026-07-08
+ * Reconoce palabras reservadas, monedas, números, cadenas,
+ * operadores, delimitadores y comentarios.
  */
 
 const PALABRAS_RESERVADAS = {
